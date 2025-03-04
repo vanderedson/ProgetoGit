@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulário</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+    <main class="container">
+      <div class="container-imagem">
+        <img src="./assets/image.png" alt="imagem de três bonecos" />
+      </div>
+
+      <div class="container-login">
+        <div class="container-login-header">
+          <div class="icon-svg">
+            <img src="./assets/Icon.svg" alt="Ícone do projeto" />
+          </div>
+
+          <div class="header-title">
+            <h1>Welcome back!</h1>
+            <h5>Please enter your details</h5>
+          </div>
+        </div>
+        <!-- Fim do header -->
+
+        <form action="#">
+          <div class="input-single">
+            <input
+              required
+              type="email"
+              name="email"
+              id="email"
+              class="input"
+            />
+            <span for="email">Email</span>
+          </div>
+
+          <div class="input-single">
+            <input
+              required
+              type="password"
+              name="password"
+              id="password"
+              class="input"
+            />
+            <span for="password">Password</span>
+            <img src="./assets/Vector.png" alt="Ícone de exibição de senha" />
+          </div>
+        </form>
+
+        <div class="container-login-password">
+          <div class="checkbox">
+            <input type="checkbox" id="remember" class="checkbox" />
+            <span for="remember">Remember for 30 days</span>
+          </div>
+          <div class="forgot-pass">
+            <a href="#">Forgot Password</a>
+          </div>
+        </div>
+
+        <div class="button-container">
+          <button class="button-primary">Log in</button>
+          <button class="button-secondary">
+            <img src="./assets/Google.svg" alt="Ícone Google" /> Log in with
+            Google
+          </button>
+        </div>
+
+        <div class="footer">
+          <p>Don't have an account?</p>
+          <a href="#">Sign Up</a>
+        </div>
+      </div>
+      <!-- Finaliza div das informações do formulário -->
+    </main>
+  </body>
+</html>
